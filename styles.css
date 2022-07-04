@@ -1,0 +1,46 @@
+/* * {
+    border: 2px solid red;
+} */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.flex-container {
+    display: flex;
+}
+
+.navbar, .hero{
+    background-color: #ff9800;
+    color: white;
+    padding-bottom: 200px;
+
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.intLink {
+    margin-right: 50px;
+}
+
+.hero-image {
+    height: auto;
+    width: 200px;
+    flex: 1;
+}
+
+.hero {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.intro {
+    flex: 1;
+    direction: row;
+}
+
+h1 {
+    font-size: 40px;
+}
