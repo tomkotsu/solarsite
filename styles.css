@@ -17,10 +17,16 @@ body {
     direction: row;
 }
 
+.navbar {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #26b2c2;
+    height: auto;
+}
+
 .navbar, .hero{
     background-color: #ff9800;
     color: white;
-    padding-bottom: 100px;
     padding-left: 20%;
     padding-right: 20%;
 
